@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0;
+        }
+
+        header{
+            background-color: white;
+            margin: 10px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.514);
+        }
+
+        nav{
+            background-color: rgb(102, 102, 102);
+            padding-bottom: 10px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.527);
+        }
+
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+            
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+        }
+
+        main{
+            background-color: white;
+            padding: 20px;
+            margin: 10px; 
+            border-radius: 10px;
+            box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.514);
+        }
+
+        article{
+            background-color: lightgray;
+            padding-bottom: 10px;
+            border-radius: 10px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.527);
+        }
+
+        article > aside{
+            background-color: rgb(126, 121, 121);
+        }
+
+        article > h2{
+            text-align: center;
+            padding-top: 4px;
+        }
+
+        article > p{
+            padding: 0 10px 0 10px;
+        }
+
+        aside > p{
+            text-align: center;
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+        }
+
+        footer > p{
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link01</a>
+            <a href="#">Link02</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta assumenda perferendis asperiores suscipit, necessitatibus commodi beatae ut sit fugit, debitis qui deserunt voluptatum? Exercitationem doloremque expedita autem error, cum officia! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quas ipsum animi quo perferendis nobis tempore sit! Cumque at in eos odio delectus, nostrum possimus minima fuga quos laboriosam aspernatur.</p>
+                <aside>
+                    <p>Artigo escrito por Felipe</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Felipe</p>
+    </footer>
+</body>
+</html>
